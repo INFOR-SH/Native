@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{d5a8c9a0-80fb-4c4f-bf22-d85ab235786f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sql">
+      <UniqueIdentifier>{2fe1f206-6f17-4e17-a07e-bab1fec73ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sql\Mssql">
+      <UniqueIdentifier>{64ed2b19-4215-4a20-8756-cecf07bcc7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sql\Structure">
+      <UniqueIdentifier>{6c1cf132-46fd-41d3-be78-33d1f0a19007}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_Source\SqlArgument.cpp">
+      <Filter>Sql\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\SqlDeclaration.cpp">
+      <Filter>Sql\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\SqlField.cpp">
+      <Filter>Sql\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\SqlFile.cpp">
+      <Filter>Sql\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\SqlVariable.cpp">
+      <Filter>Sql\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\MssqlScanner.flex.cpp">
+      <Filter>Sql\Mssql</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\SqlProcedure.cpp">
+      <Filter>Sql\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Capturer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\MssqlCapturer.cpp">
+      <Filter>Sql\Mssql</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MssqlScanner.h">
+      <Filter>Sql\Mssql</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlArgument.h">
+      <Filter>Sql\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlDeclaration.h">
+      <Filter>Sql\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlField.h">
+      <Filter>Sql\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlFile.h">
+      <Filter>Sql\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlVariable.h">
+      <Filter>Sql\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlProcedure.h">
+      <Filter>Sql\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Capturer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MssqlCapturer.h">
+      <Filter>Sql\Mssql</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_Source\MssqlScanner.flex">
+      <Filter>Sql\Mssql</Filter>
+    </None>
+  </ItemGroup>
+</Project>

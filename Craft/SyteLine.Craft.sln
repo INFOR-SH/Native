@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SyteLine.Craft.Ecotope", "Ecotope\SyteLine.Craft.Ecotope.vcxproj", "{9C0E3958-6A20-4C84-ABA1-DC8230B41A9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SyteLine.Craft.Code", "Code\SyteLine.Craft.Code.vcxproj", "{16800EFE-791A-44EA-899E-71F991F0804E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C0E3958-6A20-4C84-ABA1-DC8230B41A9E} = {9C0E3958-6A20-4C84-ABA1-DC8230B41A9E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0E3958-6A20-4C84-ABA1-DC8230B41A9E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C0E3958-6A20-4C84-ABA1-DC8230B41A9E}.Debug|Win32.Build.0 = Debug|Win32
+		{9C0E3958-6A20-4C84-ABA1-DC8230B41A9E}.Release|Win32.ActiveCfg = Release|Win32
+		{9C0E3958-6A20-4C84-ABA1-DC8230B41A9E}.Release|Win32.Build.0 = Release|Win32
+		{16800EFE-791A-44EA-899E-71F991F0804E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{16800EFE-791A-44EA-899E-71F991F0804E}.Debug|Win32.Build.0 = Debug|Win32
+		{16800EFE-791A-44EA-899E-71F991F0804E}.Release|Win32.ActiveCfg = Release|Win32
+		{16800EFE-791A-44EA-899E-71F991F0804E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
